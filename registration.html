@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="registration.css">
+  <script type="text/javascript" src="registration.html"></script>
+</head>
+
+<body>
+  <div class="navbar">
+    <img src="logo.png" alt="" height="100px" width="200px">
+    <h1>Nima Online Voting System <span></span></h1>
+
+    <div class="nav">
+      <a href="index.html">Home</a>
+  </div>
+  </div>
+  <h2>Registration Form</h2>
+  <form>
+    <div class="lpage">
+      <div class="rgsterimg">
+        <img src="reg.avif" width="800px" height="650px">
+      </div>
+      <div id="input">
+        <div>
+          <label></label><b>Registration no.</b></label>
+          <input type="text" placeholder="Enter registration number" name="regnumber" required>
+          <br><label></label><b>Name</b></label>
+          <input type="text" id="fname" name="fname" required>
+          <br><label></label><b>Faculty</b></label>
+          <select name="faculty" id="faculty" required>
+            <option value="Business">Business</option>
+            <option value="Hospitality">Hospitality</option>
+            <option value="Tours and Travels">Tours and Travels</option>
+          </select>
+          <br><label></label><b>Password</b></label>
+          <input type="password" id="myInput" placeholder="Enter Password" onChange="onChange()" name="psw" required>
+          <input type="password" id="cofirm" placeholder="Repeat Password" onChange="onChange()" name="psw-repeat" required>
+          
+          <div class="clearfix">
+            <a href="voting.html" class="href"><button onclick="link()" type="submit" class="signupbtn">
+                Sign up
+          </div>
+        </div>
+  </form>
+  <div class="finishing">
+    <p class="already">Already have an account?</p>
+    <a href="login.html" type="submit" class="login">Login</a>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8fedf6cec2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+    <title>Log In</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo.png" alt="" height="100px" width="200px">
+        <h1>Nima Online Voting System <span></span></h1>
+        
+        <div class="nav">
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+    <div class="log">
+        <div class="form1">
+            <form name="login-form" action="" method="POST">
+                <div class="ent1">
+                    <h2>Login to vote</h2><br>
+                    <p>Registration number*</p>
+                    <input type="text" class="ent" placeholder="Enter registration number" id="reg number" required>
+                    <p>Password*</p>
+                    <input type="password" class="ent" placeholder="Enter your password" id="pass" required><br>
+                    <a href="voting.html" class="href"><button onclick="link()" type="Login" class="loginbtn">
+                        Login
+                </div>
+            </form>
+            <h4>New Voter: <a href="registration.html"><button id="btn2">Register here</button></a></h4>
+        </div>
+        <div class="bgimg">
+            <img src="log.jpeg" alt="" height="400px" width="350px">
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
